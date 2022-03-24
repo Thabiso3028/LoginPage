@@ -1,0 +1,193 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+
+:root {
+  --black: #000000;
+  --jelly-bean: #db5151;
+  --suva-gray: #898585;
+  --scorpion: #615f5f;
+  --font-size-m: 25px;
+  --font-size-s: 20px;
+  --font-size-l: 40px;
+  --font-family-inter: "Inter", Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  align-items: flex-start;
+  background-color: #dedbdb;
+  display: flex;
+  height: 1005px;
+  padding: 0 400px;
+  width: 1440px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group {
+  height: 700px;
+  margin-left: 92px;
+  margin-top: 213px;
+  position: relative;
+  width: 548px;
+}
+
+.login-1 {
+  background-color: var(--jelly-bean);
+  border-radius: 10px;
+  height: 52px;
+  left: 168px;
+  position: absolute;
+  top: 445px;
+  width: 190px;
+}
+
+.key-solid-1 {
+  height: 47px;
+  left: 102px;
+  position: absolute;
+  top: 369px;
+  width: 37px;
+}
+
+.password {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  height: 60px;
+  left: 90px;
+  position: absolute;
+  top: 358px;
+  width: 350px;
+}
+
+.inter-normal-suva-gray-25px {
+  color: var(--suva-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.username-1 {
+  left: 188px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 289px;
+  width: 133px;
+}
+
+.password-1 {
+  left: 199px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 374px;
+  width: 133px;
+}
+
+.register-new-account {
+  left: 142px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 603px;
+  width: 265px;
+}
+
+.inter-normal-scorpion-25px {
+  color: var(--scorpion);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.forgot-password {
+  color: #162dfd;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 83px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 524px;
+}
+
+.username {
+  background-color: #fdfcfc;
+  border-radius: 10px;
+  height: 59px;
+  left: 90px;
+  position: absolute;
+  top: 272px;
+  width: 350px;
+}
+
+.login-2 {
+  background-color: var(--jelly-bean);
+  border-radius: 10px;
+  height: 52px;
+  left: 90px;
+  position: absolute;
+  top: 589px;
+  width: 350px;
+}
+
+.user-solid-1 {
+  height: 104px;
+  left: 192px;
+  position: absolute;
+  top: 41px;
+  width: 129px;
+}
+
+.rectangle-1 {
+  background-color: #c4c4c4;
+  height: 684px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 526px;
+}
+
+.rectangle-2 {
+  background-color: var(--jelly-bean);
+  height: 684px;
+  left: 22px;
+  position: absolute;
+  top: 16px;
+  width: 526px;
+}
+
+.vector {
+  height: 46px;
+  left: 102px;
+  position: absolute;
+  top: 279px;
+  width: 37px;
+}
+
+.title {
+  color: var(--jelly-bean);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 208px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 172px;
+}
+
+.login-3 {
+  left: 228px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 457px;
+  width: 93px;
+}
